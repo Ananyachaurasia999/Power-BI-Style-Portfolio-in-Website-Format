@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.skills, .tools, .experience {
+  margin: 40px 0;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 15px;
+  border-left: 5px solid #0078d4;
+  padding-left: 10px;
+}
+
+.bar {
+  background: #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  height: 25px;
+}
+
+.bar p {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  font-weight: bold;
+}
+
+.fill {
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 25px;
+  border-radius: 10px;
+}
+
+.fill.html { width: 90%; background: #ff5722; }
+.fill.css { width: 85%; background: #03a9f4; }
+.fill.canva { width: 95%; background: #8e24aa; }
+.fill.java { width: 70%; background: #388e3c; }
+
+.tools ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.tools li {
+  margin-bottom: 8px;
+  padding-left: 10px;
+  border-left: 3px solid #0078d4;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
